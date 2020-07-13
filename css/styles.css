@@ -47,6 +47,8 @@ header{
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 	position: relative;
 	top:200px;
+	padding:0px;
+	margin:0px;
 }
 
 #Tiers p{
@@ -54,6 +56,13 @@ header{
 	font-size: 20px;
 	line-height: 70px;
 	font-family: luminari, verdana, sans-serif;
+}
+
+#Tiers img{
+	height: 113px;
+	width: 150px;
+	padding:0px;
+	margin:0px;
 }
 
 
@@ -67,11 +76,11 @@ header{
 #BTier{background-color: #1e9422; color:#023304;}
 #BTier:hover{background-color:#023304; color:#1e9422;}
 
-#CTier{background-color: #f2e41f; color:696200;}
+#CTier{background-color: #f2e41f; color:#696200;}
 #CTier:hover{background-color:#696200; color:#f2e41f;}
 
 #DTier{background-color: #db7407; color:#542901;}
 #DTier:hover{background-color:#542901; color:#db7407;}
 
-#FTier{background-color: #bd0606; color:420000;}
+#FTier{background-color: #bd0606; color:#420000;}
 #FTier:hover{background-color:#420000; color:#bd0606;}
